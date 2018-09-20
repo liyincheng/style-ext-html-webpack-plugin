@@ -1,7 +1,7 @@
 {
-  "name": "style-ext-html-webpack-plugin",
-  "version": "3.4.7",
-  "description": "Enhances html-webpack-plugin functionality by enabling inline styles.",
+  "name": "style-ext-html-webpack-plugin-webpack-4",
+  "version": "1.0.0",
+  "description": "adapt style-ext-html-webpack for webpack 4 to extract css to inline style",
   "main": "index.js",
   "files": [
     "index.js",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/numical/style-ext-html-webpack-plugin.git"
+    "url": "https://github.com/liyincheng/style-ext-html-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -32,12 +32,12 @@
     "internal styles",
     "style"
   ],
-  "author": "Mike Evans <mike.evans@numical.com> (https://github.com/numical)",
+  "author": "Yincheng",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/numical/style-ext-html-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/numical/style-ext-html-webpack-plugin",
+  "homepage": "https://github.com/liyincheng/style-ext-html-webpack-plugin",
   "devDependencies": {
     "css-loader": "^0.28.9",
     "denodeify": "^1.2.1",
