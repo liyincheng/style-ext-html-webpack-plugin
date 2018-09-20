@@ -1,6 +1,6 @@
 {
   "name": "style-ext-html-webpack-plugin-webpack-4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "adapt style-ext-html-webpack for webpack 4 to extract css to inline style",
   "main": "index.js",
   "files": [
