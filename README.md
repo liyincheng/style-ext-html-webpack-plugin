@@ -1,5 +1,5 @@
 # style-ext-html-webpack-plugin for webpack 4
-This plugin fixed problems for [style-ext-html-webpack-plugin](https://github.com/liyincheng/style-ext-html-webpack-plugin) whoes current version not supportes webpack 4. The funtionality is to extract CSS file in inline style.
+This plugin fixed problems for [style-ext-html-webpack-plugin](https://github.com/liyincheng/style-ext-html-webpack-plugin) whoes current version does not supporte webpack 4. The funtionality is to extract CSS file in inline style.
 ```bash
 npm i --save-dev style-ext-html-webpack-plugin-webpack-4
 ```
@@ -19,12 +19,12 @@ new HtmlWebpackPlugin({
     ]
 });
 ```
-The output will be:
+The output will like:
 ```html
 <!DOCType html>
 <html>
 <head>
-    <!--inline link tag to style tag-->
+    <!--transform inline link tag to style tag-->
     <style>body,h1,h2{margin:0;padding:0}</style>
 </head>
 ```
