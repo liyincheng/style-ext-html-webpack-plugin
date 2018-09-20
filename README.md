@@ -13,15 +13,18 @@ new HtmlWebpackPlugin({
         new HtmlWebpackPlugin({
             filename: 'test.html',
             template: 'src/assets/test.html'
-            // add script attributes here!
-            attributes: {
-                crossorigin: 'anonymous'
-            }
         }),
         // this one should be placed after HtmlWebpackPlugin
         new StyleExtHtmlWebpackPlugin()
     ]
 });
 ```
-
-
+The output will be:
+```html
+<!DOCType html>
+<html>
+<head>
+    <!--inline link tag to style tag-->
+    <style>body,h1,h2{margin:0;padding:0}</style>
+</head>
+```
